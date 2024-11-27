@@ -60,7 +60,7 @@ public class MiniStatement extends JFrame implements ActionListener{
 			System.out.println(e);
 		}
 		
-		//mini.setBounds(20,140,400,200);
+		
 		setSize(400,600);
 		setLocation(20,20);
 		getContentPane().setBackground(Color.WHITE);
