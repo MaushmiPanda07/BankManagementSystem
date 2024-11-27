@@ -5,9 +5,7 @@ import java.awt.Font;
 import java.awt.Image;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-//import java.sql.Date;
 import java.util.Date;
-
 import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -43,7 +41,7 @@ public class Withdrawl extends JFrame implements ActionListener {
 	        
 	        withdraw = new JButton("Withdraw");
 	        withdraw.setBounds(355, 485, 150, 30);
-	        withdraw.addActionListener(this);  // Ensure action listener is added here
+	        withdraw.addActionListener(this); 
 	        image.add(withdraw);
 	        
 	        back = new JButton("Back");
