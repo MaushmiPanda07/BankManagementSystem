@@ -1,6 +1,5 @@
 
 package bank.managementsystem;
-
 import java.awt.*;
 import java.awt.event.*;
 import java.sql.*;
