@@ -56,15 +56,15 @@ public class Transactions extends JFrame implements ActionListener {
 	        image.add(pinchange);
 
 	        balanceenquiry = new JButton("Balance Enquiry ");
-	        balanceenquiry.setBounds(355,485,150,30); // Corrected position to avoid overlap
+	        balanceenquiry.setBounds(355,485,150,30); 
 	        balanceenquiry.addActionListener(this);
 	        image.add(balanceenquiry);
 
 	        
 	        exit = new JButton("EXIT");
-	        exit.setBounds(335, 520, 150, 30); // Adjusted Y-coordinate to avoid overlap
+	        exit.setBounds(335, 520, 150, 30); 
 	        exit.addActionListener(this);
-	        image.add(exit); // Properly added to the image label
+	        image.add(exit); 
 
 	        
 		    setSize(960,900);
@@ -80,7 +80,7 @@ public class Transactions extends JFrame implements ActionListener {
 		 }
 		 else if (ae.getSource() == deposit) {
 	            setVisible(false);
-	            new Deposit(pin).setVisible(true);  // Show Deposit screen
+	            new Deposit(pin).setVisible(true);  
 	        }else if(ae.getSource()==withdrawl){
 	        	setVisible(false);
 	        	new Withdrawl(pin).setVisible(true);
