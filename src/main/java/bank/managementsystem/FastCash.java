@@ -60,16 +60,16 @@ public class FastCash extends JFrame implements ActionListener {
 	        image.add(b5);
 
 	        b6 = new JButton("Rs 10000");
-	        b6.setBounds(355, 485, 150, 30); // Updated Y-coordinate to avoid overlap
+	        b6.setBounds(355, 485, 150, 30); 
 	        b6.addActionListener(this);
 	        image.add(b6);
 
 
 	        
 	        exit = new JButton("BACK");
-	        exit.setBounds(335, 520, 150, 30); // Adjusted Y-coordinate to avoid overlap
+	        exit.setBounds(335, 520, 150, 30); 
 	        exit.addActionListener(this);
-	        image.add(exit); // Properly added to the image label
+	        image.add(exit);
 
 	        
 		    setSize(960,900);
